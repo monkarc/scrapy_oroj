@@ -1,2 +1,2 @@
-# scrapy_oroj
+# scrapy_proj
 Scrapy Learning Path
