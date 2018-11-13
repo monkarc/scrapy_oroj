@@ -5,9 +5,24 @@
 #### creating the Soup obj for the HTML page
 
 SYNTAX: soup = BeautifulSoup(<HTML_DOC>,<parser>)
+HERE: the <HTML_DOC> is the response obj, because bs4 is not a http client
 > soup = BeautifulSoup(html_doc, 'html.parser')
+
+
 
 #### printing the soup ojb in pretty manner
 
 > print(soup.prettify())
+
+
+
+#### Different navigational methods available with BS4
+
+To find the first occurance of particular tag
+
+> soup.<tag>
+
+To find the attributes of the first occurance of the tag
+
+> soup.<tag>['<attr>']
 
