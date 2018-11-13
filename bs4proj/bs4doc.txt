@@ -14,12 +14,9 @@ HERE: the <HTML_DOC> is the response obj, because bs4 is not a http client
 
 > print(soup.prettify())
 
-
-
 #### Different navigational methods available with BS4
 
 To find the first occurance of particular tag
-
 > soup.<tag>
 
 To find the attributes of the first occurance of the tag
